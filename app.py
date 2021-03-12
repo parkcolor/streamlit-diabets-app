@@ -14,7 +14,7 @@ def main():
     st.subheader('이 머신러닝은 당신의 건강데이터를 바탕으로 당뇨병 예측을 합니다')
 
     st.write('아래 데이터는 머신러닝에 사용될 데이터입니다')
-    df = pd.read_csv('diabetes.csv.txt')
+    df = pd.read_csv('diabetes.csv')
     st.dataframe(df)
 
     st.subheader('아래 항목을 입력하세요')
