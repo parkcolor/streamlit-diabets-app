@@ -9,7 +9,7 @@ import seaborn as sns
 import joblib
 
 
-def main():
+def main(): 
     st.title('당뇨병 판정시스템')
     st.subheader('이 머신러닝은 당신의 건강데이터를 바탕으로 당뇨병 예측을 합니다')
 
